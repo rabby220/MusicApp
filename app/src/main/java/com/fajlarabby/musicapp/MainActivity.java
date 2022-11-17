@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         for(progress = 0; progress < 100; progress = progress + 20){
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
                 progressBar.setProgress(progress);
             } catch (InterruptedException e) {
                 e.printStackTrace();
